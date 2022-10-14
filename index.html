@@ -47,6 +47,21 @@
         </ul>
     </div>
  
+    <!--Music-->
+    <audio id="bgmusic"> <source src="Content/sound.mp3" type="audio/mp3"></audio>
+    
+    <script>
+        var music = document.getElementById("bgmusic")
+        var button = document.getElementById("onooff")
+        
+        button.onclick = function(){
+            if(music.paused){
+                music.play()
+            }else {
+                music.pause()
+            }
+        }
+    </script>
     
     
 <!--Script for Sound On/Off-->
