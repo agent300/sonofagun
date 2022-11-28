@@ -210,7 +210,6 @@
     justify-content: center;
 }
 
-
 @media(max-width: 798px) {
     .showcase,
     .showcase header {
@@ -238,6 +237,10 @@
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    .menu {background: #111;}
+    .menu ul li a {color: aliceblue;}
+}
 
 #preloader {
     
@@ -248,8 +251,4 @@
     position: fixed;
     z-index: 100;
 }
-
-
-
-
 
