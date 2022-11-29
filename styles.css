@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&family=Rubik+Distressed&display=swap');
 
 
 *{
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;    
 }
 
 .showcase {
@@ -97,6 +97,8 @@
     text-transform: uppercase;
     margin-bottom: 15px;
     text-align: center;
+    /*font-weight: 700;
+    font-family: 'Rubik Distressed', sans-serif;*/
 }
 
 .text a {
@@ -111,6 +113,8 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.3s;
+    border-radius: 8px;
+    font-family: 'Noto Serif Georgian', sans-serif;
 }
 
 .text a:hover {
@@ -135,6 +139,7 @@
     color: #fff;
     cursor: pointer;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 .textb:hover {
@@ -193,6 +198,7 @@
     font-size: 24px;
     color: #111;
     transition: 0.3s;
+    font-family: 'Noto Serif Georgian', sans-serif;
 }
 
 .menu ul li a:hover {
